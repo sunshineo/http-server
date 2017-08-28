@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="./css/faq.css">
+</head>
+<body>
+    <a href="" id="home"></a>
+    <div class="nav bdcdcdcdc">
+        <div class="warp clearfix">
+            <h1 class="fl logo c333"><img src="./images/logo.png" width="54" height="54" alt="WaitFree">WaitFree</h1>
+            <ul class="clearfix fl">
+                <li class="fl"><a class="c95979e" href="./index.html">HOME</a></li>
+                <li class="fl"><a class="c95979e" href="./product.html">PRODUCT</a></li>
+                <li class="fl"><a class="c95979e" href="./showcase.html">SHOWCASE</a></li>
+                <li class="fl active"><a class="c95979e" href="./faq.html">FAQ</a></li>
+            </ul>
+            <p class="fr c333"><span>phone number:</span>4255333568</p>
+        </div>
+    </div>
+
+    <div class="c1">
+        <div class="warp">
+            <h2>FAQ</h2>
+            <ul class="c1-list">
+                <li class="active">
+                    <a href="javascript:;">What about walked in customers?</a>
+                    <div>
+                        <p>For the walked in customer, they can get inline the same way through TEXT message just like other customers. If they do not have their mobile device, you can still add their manually through your device with their name.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">What if we notified the customer and the table is not ready yet?</a>
+                    <div>
+                        <p>You can click the count down timer, it will give you an option to pin the customer. We will change the background for that customer as well so that you know that the customer is here already.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">What if we notified the customer and customer never show up?</a>
+                    <div>
+                        <p>Once the counter down finished for the customer, it will be moved to the “Not Ready” queue automatically so that you can just call the next customer in sequence.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">What if people see the line in front and they decide not to come?</a>
+                    <div>
+                        <p>If customers see the long line, with our system, they will have an option to wait at home or other places. Without our system, customers are more likely to walk away. Based on our data, returned customers increase more than 40% after restaurants used our system after 10 weeks. </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">How do I know how much it will cost for me each month?</a>
+                    <div>
+                        <p>The price you pay is just the cost of TEXT messages used to notify your customers. Each text message segment costs 0.0075. Roughly each 1000 customers will cost you $30. </p>
+                        <p>For restaurants with less than 500 customers who used our system per month, we offer it for free. After that,  we charge $30 dollars per 1000 customers. </p>
+                        <p>We offer three months of free trial so that you will know exactly how much it will cost for you once your tried it out for the first month.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="warp">
+            <p>(c) 2017 WaitFree Inc. All Rights Reserved</p>
+            <a href="#home">Back to Top</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('.c1-list li').each(function(){
+                var _this = $(this);
+                $(this).find('a').click(function(){
+                    _this.toggleClass('active')
+                })
+            })
+        })
+    </script>
+</body>
+</html>

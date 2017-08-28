@@ -1,0 +1,218 @@
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../font/Helvetica.ttf"); }
+body {
+  min-width: 1200px; }
+
+* {
+  font-family: "Arial";
+  padding: 0;
+  margin: 0; }
+
+ul, li, ol, li, dl, dt, dd {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.c333 {
+  color: #333 !important; }
+
+.c95979e {
+  color: #95979e !important; }
+
+.textshadow {
+  text-shadow: 0px 0px 4px #000; }
+
+.nav {
+  height: 98px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.6); }
+  .nav .warp {
+    width: 980px;
+    margin: 0 auto;
+    height: 100%; }
+    .nav .warp .logo {
+      height: 54px;
+      font-size: 24px;
+      line-height: 54px;
+      color: #fff;
+      margin-top: 22px;
+      margin-right: 78px;
+      letter-spacing: 0; }
+      .nav .warp .logo img {
+        vertical-align: middle;
+        margin-right: 14px; }
+    .nav .warp > ul {
+      height: 100%; }
+      .nav .warp > ul > li {
+        height: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px solid transparent;
+        padding: 0 20px;
+        margin-right: 20px; }
+        .nav .warp > ul > li a {
+          color: #f0f0f0;
+          font-size: 14px;
+          line-height: 96px;
+          font-weight: bold; }
+        .nav .warp > ul > li:hover a, .nav .warp > ul > li.active a {
+          color: #3ccfaa !important; }
+    .nav .warp > p {
+      font-size: 15px;
+      line-height: 98px;
+      color: #fff; }
+      .nav .warp > p span {
+        color: #3CCFAA;
+        padding-left: 20px;
+        margin-right: 8px;
+        background-image: url(../images/phone_number.png);
+        background-repeat: no-repeat;
+        background-position: left; }
+
+.bottom {
+  height: 99px;
+  border-top: 1px solid #e2e5e9;
+  background-color: #f6f6f6; }
+  .bottom .warp {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center; }
+    .bottom .warp p {
+      font-size: 16px;
+      color: #888;
+      line-height: 98px; }
+    .bottom .warp a {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      font-size: 15px;
+      color: #888;
+      font-weight: bold; }
+      .bottom .warp a:after {
+        position: absolute;
+        content: "";
+        width: 11px;
+        height: 6px;
+        background-image: url("../images/top.png");
+        right: -14px;
+        top: 50%;
+        margin-top: -3px; }
+
+.c1 .warp {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.c2 {
+  height: 680px;
+  background-color: #f9fafb; }
+  .c2 .warp {
+    height: 100%;
+    width: 1080px;
+    margin: 0 auto;
+    position: relative; }
+    .c2 .warp > img {
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    .c2 .warp > div {
+      width: 522px;
+      position: absolute;
+      top: 175px;
+      left: 422px; }
+      .c2 .warp > div > img:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .c2 .warp > div > img:nth-child(2) {
+        position: absolute;
+        top: 73px;
+        left: 144px; }
+      .c2 .warp > div > div {
+        width: 390px;
+        top: 186px;
+        left: 140px;
+        position: absolute; }
+        .c2 .warp > div > div > h3 {
+          font-size: 40px;
+          color: #3CCFAA;
+          letter-spacing: 0;
+          margin-bottom: 20px; }
+        .c2 .warp > div > div > p {
+          font-size: 26px;
+          color: #444444;
+          letter-spacing: 0;
+          line-height: 40px; }
+
+.c3 .warp {
+  width: 1066px;
+  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
+  text-align: center; }
+  .c3 .warp > h3 {
+    font-size: 40px;
+    color: #3CCFAA;
+    letter-spacing: 0;
+    margin-bottom: 20px; }
+  .c3 .warp > p {
+    font-size: 26px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-bottom: 40px; }
+  .c3 .warp > div {
+    height: 600px;
+    position: relative; }
+    .c3 .warp > div > img:nth-child(1) {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .c3 .warp > div > img:nth-child(2) {
+      position: absolute;
+      right: 435px;
+      top: 341px; }
+    .c3 .warp > div > img:nth-child(3) {
+      position: absolute;
+      right: 435px;
+      top: 47px; }
+
+.c4 {
+  background-color: #f9fafb; }
+  .c4 .warp {
+    width: 1021px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 120px; }
+    .c4 .warp > img {
+      margin-right: 42px; }
+    .c4 .warp > div {
+      margin-top: 247px;
+      width: 400px; }
+      .c4 .warp > div h3 {
+        font-size: 40px;
+        color: #3CCFAA;
+        letter-spacing: 0;
+        margin-bottom: 20px; }
+      .c4 .warp > div p {
+        font-size: 26px;
+        color: #444444;
+        letter-spacing: 0;
+        line-height: 40px;
+        margin-bottom: 40px; }
+
+/*# sourceMappingURL=produect.css.map */
