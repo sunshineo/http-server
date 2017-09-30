@@ -207,7 +207,8 @@ a {
     width: 1021px;
     margin: 0 auto;
     padding-top: 80px;
-    padding-bottom: 120px; }
+    padding-bottom: 120px;
+    text-align: center; }
     .c2 .warp > img {
       margin-right: 42px; }
     .c2 .warp > div {
@@ -224,5 +225,9 @@ a {
         letter-spacing: 0;
         line-height: 40px;
         margin-bottom: 40px; }
+      .c2 .warp .arrow01 {
+        margin-top: 20px;
+        margin-bottom: 60px;
+      }
 
 /*# sourceMappingURL=product.css.map */
