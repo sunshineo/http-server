@@ -167,12 +167,6 @@ a {
   padding-top: 100px;
   position: relative;
   text-align: center; }
-  .c3 .warp > h2 {
-    font-size: 50px;
-    font-family: Helvetica;
-    color: #3CCFAA;
-    letter-spacing: 0;
-    margin-bottom: 20px; }
   .c3 .warp > h3 {
     font-size: 40px;
     color: #3CCFAA;
@@ -199,6 +193,13 @@ a {
       position: absolute;
       right: 435px;
       top: 47px; }
+    .c3 .warp .store-icon {
+      margin-right: 14px;
+    }
+    .c3 .warp .arrow01 {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
 
 .c2 {
   background-color: #f9fafb; }
