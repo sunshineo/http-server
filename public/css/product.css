@@ -234,5 +234,36 @@ a {
         margin-top: 20px;
         margin-bottom: 60px;
       }
+      .c2 .warp .through-large {
+        font-size: 26px;
+        color: #333333;
+        line-height: 40px;
+        display: inline-block;
+        margin-top: 0px;
+        width: auto;"
+      }
+      .c2 .warp .through-side {
+        font-size: 26px;
+        color: #333333;
+        line-height: 40px;
+        display: inline-block;"
+      }
+      .c2 .warp .through-left {
+        font-family: ArialMT;
+        border: 1px dotted #3CCFAA;
+        float:left;
+        height: 42px;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+      .c2 .warp .through-right {
+        float:left;
+        background-color: #3CCFAA;
+        height: 44px;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-family: Arial-BoldMT;
+        color: #FFFFFF;
+      }
 
 /*# sourceMappingURL=product.css.map */
