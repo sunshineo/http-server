@@ -211,6 +211,11 @@ a {
     text-align: center; }
     .c2 .warp > img {
       margin-right: 42px; }
+    .c2 .warp > h3 {
+      font-size: 40px;
+      color: #3CCFAA;
+      letter-spacing: 0;
+      margin-bottom: 20px; }
     .c2 .warp > div {
       margin-top: 247px;
       width: 400px; }
