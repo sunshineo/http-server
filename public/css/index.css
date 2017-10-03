@@ -168,33 +168,33 @@ a {
           line-height: 24px;
           color: #637794; }
 
-.c4 {
+.c2 {
   background-color: #f9fafb; }
-  .c4 .warp {
+  .c2 .warp {
     padding: 80px 0; }
-    .c4 .warp > h2 {
+    .c2 .warp > h2 {
       font-size: 32px;
       color: #3CCFAA;
       text-align: center;
       margin-bottom: 59px; }
-    .c4 .warp > div {
+    .c2 .warp > div {
       width: 1108px;
       margin: 0 auto; }
-      .c4 .warp > div > div {
+      .c2 .warp > div > div {
         text-align: center;
         margin: 0 50px; }
-        .c4 .warp > div > div > p {
+        .c2 .warp > div > div > p {
           font-size: 16px;
           color: #4A4A4A;
           letter-spacing: 0;
           font-weight: bold;
           text-align: center;
           margin-bottom: 20px; }
-        .c4 .warp > div > div > img {
+        .c2 .warp > div > div > img {
           margin-bottom: 36px; }
-        .c4 .warp > div > div > div > img:nth-child(1), .c4 .warp > div > div > div > img:nth-child(3) {
+        .c2 .warp > div > div > div > img:nth-child(1), .c2 .warp > div > div > div > img:nth-child(3) {
           box-shadow: 0 2px 10px 0 rgba(160, 160, 160, 0.5); }
-        .c4 .warp > div > div > div > img:nth-child(2) {
+        .c2 .warp > div > div > div > img:nth-child(2) {
           margin: 0 20px;
           margin-top: 173px; }
 
@@ -243,7 +243,7 @@ a {
           font-weight: normal; }
       .c3 .warp > ul > li:nth-child(1),
       .c3 .warp > ul > li:nth-child(3) {
-        width: 300px; }
+        width: 240px; }
       .c3 .warp > ul > li:nth-child(1) > p,
       .c3 .warp > ul > li:nth-child(2) > p {
         border-right: none; }
@@ -251,20 +251,20 @@ a {
       .c3 .warp > ul > li:nth-child(3) > p {
         border-left: none; }
       .c3 .warp > ul > li:nth-child(2) {
-        width: 360px; }
+        width: 400px; }
       .c3 .warp > ul > li:last-child {
         border: none; }
 
-.c2 {
+.c4 {
   background-color: #f9fafb; }
-  .c2 .warp {
+  .c4 .warp {
     padding: 90px 0;
     text-align: center; }
-    .c2 .warp img {
+    .c4 .warp img {
       display: block;
       margin: 0 auto;
       margin-bottom: 10px; }
-    .c2 .warp h2 {
+    .c4 .warp h2 {
       display: inline-block;
       font-size: 36px;
       color: #3CCFAA;
@@ -272,7 +272,7 @@ a {
       margin-bottom: 21px;
       position: relative;
       font-weight: normal; }
-      .c2 .warp h2:after {
+      .c4 .warp h2:after {
         position: absolute;
         content: "";
         width: 26px;
@@ -281,7 +281,7 @@ a {
         left: -28px;
         top: 50%;
         margin-top: -17px; }
-    .c2 .warp p {
+    .c4 .warp p {
       width: 95px;
       height: 24px;
       background-color: rgba(60, 207, 170, 0.2);
