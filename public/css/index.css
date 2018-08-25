@@ -202,7 +202,7 @@ a {
   background-color: #fff; }
   .c3 .warp {
     padding-top: 80px;
-    padding-bottom: 120px; }
+    padding-bottom: 80px; }
     .c3 .warp > h2 {
       font-size: 32px;
       color: #3CCFAA;
@@ -210,30 +210,43 @@ a {
       text-align: center;
       margin-bottom: 66px; }
     .c3 .warp > ul {
-      width: 964px;
+      width: 883px;
       margin: 0 auto; }
       .c3 .warp > ul > li {
         text-align: center;
         border-right: 1px solid #eee; }
         .c3 .warp > ul > li > div {
-          height: 200px;
+          height: 100px;
           box-sizing: border-box;
-          padding-top: 36px;
+          display: -webkit-box; 
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex; 
+          display: flex;
+          -webkit-box-align: center;
+          -moz-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          justify-content: center;
           background-color: #3ccfaa; }
           .c3 .warp > ul > li > div > p {
-            font-size: 56px;
+            font-size: 34px;
             color: #FFFFFF;
             letter-spacing: 0;
             font-family: "Helvetica";
             font-weight: bold; }
         .c3 .warp > ul > li > p {
-          font-size: 14px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 12px;
           line-height: 60px;
           text-align: center;
           background-color: #fafafa;
           border: 1px solid #eee;
           border-top: none;
           box-sizing: border-box;
+          color: #666;
           font-weight: bold; }
         .c3 .warp > ul > li h3 {
           font-size: 16px;
@@ -293,3 +306,29 @@ a {
       margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */
+
+
+.trial-div {
+  box-sizing: border-box;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.trial-btn {
+  box-sizing: border-box;
+  background-color: #3CCFAA;
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 2.5em;
+}
